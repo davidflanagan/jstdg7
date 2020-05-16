@@ -1,8 +1,6 @@
 # Example code from _JavaScript: The Definitive Guide_
 
-<img src="smallcover.jpg"
-     alt="The cover of JavaScript: The Definitive Guide"
-     style="float:right/>
+![The cover of JavaScript: The Definitive Guide](smallcover.jpg)
 
 This repo includes all of the numbered examples from the 7th edition
 of my book, plus many unnumbered examples as well. In general, if an
@@ -11,12 +9,12 @@ useful to someone, I've included it here. The code is listed below in
 roughly the same order as in the book. To locate code, just look below
 for the example number or section number that the code appears in.
 
-This code is far more useful when studied in the context of [the
-book](https://amzn.to/3fTETLV) in which it appears, and I'd ask you to
-please buy yourself a copy if you are able to.
+This code is far more useful when studied in the context of the book
+in which it appears, and I'd ask you to [please buy yourself a
+copy](https://amzn.to/3fTETLV) if you are able to.
 
-The examples are Copyright 2020 David Flanagan but are free for
-everyone to use:
+The examples are Copyright © 2020 by David Flanagan but are free for
+everyone to use. This is the permission notice from the book's preface:
 
 > This book is here to help you get your job done. In general, if
 > example code is offered with this book, you may use it in your
