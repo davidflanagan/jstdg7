@@ -11,21 +11,13 @@ for the example number or section number that the code appears in.
 
 This code is far more useful when studied in the context of the book
 in which it appears, and I'd ask you to [please buy yourself a
-copy](https://amzn.to/3fTETLV) if you are able to.
+copy](https://amzn.to/3fTETLV) if you are able to. These examples are
+[free for everyone to use](LICENSE.md).
 
-The examples are Copyright © 2020 by David Flanagan but are free for
-everyone to use. This is the permission notice from the book's preface:
-
-> This book is here to help you get your job done. In general, if
-> example code is offered with this book, you may use it in your
-> programs and documentation. You do not need to contact us for
-> permission unless you’re reproducing a significant portion of the
-> code. For example, writing a program that uses several chunks of code
-> from this book does not require permission. Selling or distributing
-> examples from O’Reilly books does require permission. Answering a
-> question by citing this book and quoting example code does not require
-> permission. Incorporating a significant amount of example code from
-> this book into your product’s documentation does require permission.
+If you discover problems with this repo, or bugs in the code, please
+open a GitHub issue. (Note, however, that I will not accept pull
+requests because I need to maintain clear copyright to the code so
+that I can use it in future editions of the book.)
 
 
 ## Chapter 1: Introduction to JavaScript
