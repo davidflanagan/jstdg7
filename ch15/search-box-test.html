@@ -1,0 +1,50 @@
+<style>
+.search {
+/*  background: bisque;*/
+  font-family: sans-serif;
+}
+#foo { user-select:none; }
+</style>
+
+<script src="search-box.js"></script>
+
+<p id="foo">Testing, testing</p>
+
+<search-box class="search" value="foobar" size=20 placeholder="Search...">
+</search-box>
+<p>Testing, testing</p>
+
+<button onclick="changeSize()">Change size</button>
+<button onclick="changePlaceholder()">Change placeholder</button>
+<button onclick="changeValue()">Change value</button>
+<button onclick="hide()">Disable</button>
+<button onclick="show()">Enable<button>
+
+<script>
+  let sb = document.querySelector("search-box");
+  console.log("sb", sb);
+  sb.addEventListener("clear", (e) => {
+    console.log("clear event");
+  });
+  sb.addEventListener("search", (e) => {
+    console.log("search event", e.detail);
+  });
+
+  sb.addEventListener("input", (e) => {
+    console.log("input event targeted at", e.target);
+    console.log(e);
+  });
+
+  sb.addEventListener("focus", console.log);
+  sb.addEventListener("blur", console.log);
+  sb.addEventListener("click", console.log);
+
+
+  function changeSize() { sb.size = 30; }
+  function changePlaceholder() {sb.placeholder = "?????????";}
+  function changeValue() {sb.value = "testing"; }
+  function hide() { sb.disabled = true; }
+  function show() { sb.disabled = false; }
+
+</script>
+
