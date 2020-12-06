@@ -72,7 +72,7 @@ function initdb(db, callback) {
 // Given a zip code, use the IndexedDB API to asynchronously look up the city
 // with that zip code, and pass it to the specified callback, or pass null if
 // no city is found.
-function lookupCity(zip, callback) {
+export function lookupCity(zip, callback) {
     withDB(db => {
         // Create a read-only transaction object for this query. The
         // argument is an array of object stores we will need to use.
@@ -99,7 +99,7 @@ function lookupCity(zip, callback) {
 // Given the name of a city, use the IndexedDB API to asynchronously
 // look up all zip code records for all cities (in any state) that have
 // that (case-sensitive) name.
-function lookupZipcodes(city, callback) {
+export function lookupZipcodes(city, callback) {
     withDB(db => {
         // As above, we create a transaction and get the object store
         let transaction = db.transaction(["zipcodes"]);

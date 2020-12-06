@@ -177,6 +177,7 @@ that I can use it in future editions of the book.)
     - [setCookie](ch15/setCookie.js)
 - [Example 15-13](ch15/zipcodeDatabase.js): A IndexedDB database of US postal codes
     - [zipcode data](ch15/zipcodes.json)
+    - [test program](ch15/zipcodes.html)
 - [Example 15-14](ch15/mandelbrotWorker.js): Worker code for computing regions of the Mandelbrot set
 - [Example 15-15](ch15/mandelbrot.js): A web application for displaying and exploring the Mandelbrot set
     - [mandelbrot.html](ch15/mandelbrot.html)
