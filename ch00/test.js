@@ -1,5 +1,5 @@
-console.log("Hello World")
-console.log("Bye there")
-console.log("Hi there")
-console.log("New Commit")
-console.log("\u{1F600}");
+let a
+a
+=
+3
+console.log(a)
