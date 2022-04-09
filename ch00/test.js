@@ -1,4 +1,13 @@
-let o = { x: 1, y: 2, z: 3 }; 
-let a = [], i = 0; 
-for (a[i++] in o) /* empty */;
-console.log(a)
+function f() {
+    return 0
+}
+console.log(f3())
+function f1() {
+    return 1
+}
+function f2() {
+    return 2
+}
+function f3() {
+    return 3
+}
