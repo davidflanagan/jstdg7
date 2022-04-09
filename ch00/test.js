@@ -1,13 +1,6 @@
-function f() {
-    return 0
-}
-console.log(f3())
-function f1() {
-    return 1
-}
-function f2() {
-    return 2
-}
-function f3() {
-    return 3
-}
+let uniqueInteger = (function () { // Define and invoke
+    let counter = 0; // Private state of function below 
+    return function() { return counter++; };
+}());
+console.log(uniqueInteger()) // => 0 
+console.log(uniqueInteger()) // => 1
